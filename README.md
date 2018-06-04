@@ -18,3 +18,8 @@ jay-webpack init <project-name>
 ```
 jay-webpack init webpack4
 ```
+
+## download node_modules
+```
+yarn
+```
