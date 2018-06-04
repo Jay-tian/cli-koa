@@ -16,8 +16,7 @@ program
   .action(function (dir, cmd) {
     fs.exists(dir, function (exists) {   
         if (!exists) {
-        console.log(`开始初始化项目`);
-            
+            fs.copySync('./../template/',path.join(rootPath, dir));
         } else {
             console.error(dir+` 项目已经存在`);
         }
