@@ -1,13 +1,13 @@
 {
-  "name": "webpack-scaffold-cli",
-  "version": "1.0.2",
+  "name": "cli-koa",
+  "version": "1.0.3",
   "description": "A simple CLI for scaffolding webpack4 projects. 一秒初始化webpack4项目",
   "main": "index.js",
   "repository": "https://github.com/Jay-tian/webpack-scaffold-cli.git",
   "author": "tianshengjie <tianshengjie@howzhi.com>",
   "license": "MIT",
   "bin": {
-    "jay-webpack": "bin/init.js"
+    "cli-koa": "bin/init.js"
   },
   "engines": {
     "node": ">=6.11.5"
