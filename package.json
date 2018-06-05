@@ -1,6 +1,6 @@
 {
   "name": "cli-koa",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple CLI for scaffolding koa2 projects. 一秒初始化koa2项目",
   "repository": "https://github.com/Jay-tian/cli-koa.git",
   "author": "tianshengjie <tianshengjie@howzhi.com>",
