@@ -1,5 +1,5 @@
-# webpack-scaffold-cli
-A simple CLI for scaffolding Vue.js projects.
+# CLI-KOA
+A simple CLI for scaffolding Koa2 projects.
 
 ## Installation
 Prerequisites: Node.js (>=6.11.5, 8.x preferred),npm and Git.
