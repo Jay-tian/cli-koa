@@ -16,14 +16,15 @@ program
   .action(function (dir, cmd) {
     fs.exists(dir, function (exists) {   
         if (!exists) {
-            fs.copySync(path.join(__dirname, './../temp/'), path.join(rootPath, dir));
-            console.error(dir+` 项目初始化成功`);
+        console.log(`开始初始化项目`);
+        git.clone('https://github.com/Jay-tian/blog.git', path.join(rootPath, dir), function(){
+            fs.removeSync(path.join(rootPath, dir+'/.git/'));
+            console.log(`初始化项目成功`);
+        })      
         } else {
             console.error(dir+` 项目已经存在`);
         }
     });
-
-  })
-
+  });
 
 program.parse(process.argv);
